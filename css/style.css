@@ -67,7 +67,7 @@ a:hover {
   margin-right: 0.4375rem;
 }
 
-/* media Query */
+/* Media Query */
 @media (max-width: 991px ) {
   .top-cloud, .bottom-cloud {
     display: none;
@@ -81,13 +81,10 @@ a:hover {
     width: 50%;
   }
 
-
 }
 @media (max-width: 800px) {
-  .navbar{
-    display: none;
-  }
-  h1 {
+
+  .big-heading {
     font-size: 4.8125rem;
   }
 
@@ -105,16 +102,14 @@ a:hover {
   .top-cloud, .bottom-cloud {
     display: none;
   }
-
-  .interactive-resume{
-    font-size: 0.2rem;
-  }
-
 }
 
 /* Navigation Bar */
 .nav-item {
   padding: 0 0.5rem;
+}
+.navbar{
+  text-align: left;
 }
 
 .nav-link {
@@ -161,6 +156,9 @@ a:hover {
 .resume-hr {
   border-color: #256D85;
 }
+
+/* Section */
+
 
 /* Profile */
 .container {
